@@ -1,0 +1,187 @@
+.modal-common {
+    padding: 0 !important;
+}
+
+.modal-common .modal-dialog {
+    max-width: 100% !important;
+}
+
+.modal-common .modal-content {
+    border-radius: 0;
+}
+
+.modal-common .container-th {
+    max-width: 315px;
+    margin: 0 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.modal-common .title {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: var(--mainColor);
+}
+
+.modal-common .desc {
+    font-size: 16px;
+    color: #7E7E7E;
+}
+
+.modal-common .hold-submit {
+    margin: 0;
+}
+
+@media (min-width: 991.98px) {
+    .modal-common .container-th {
+        margin: 0 370px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .modal-common .modal-dialog {
+        margin: 0;
+    }
+
+    .modal-common .container-th {
+        margin: 0 auto;
+    }
+}
+.hold-content .title {
+    font-size: 24px;
+    font-family: 'GEDinkum-Bold';
+}
+
+.hold-form {
+    margin: 30px 0;
+}
+.hold-form .form-control,
+.hold-form .form-control::placeholder {
+    color: #1c2e5aa2;
+    font-size: 16px;
+}
+
+.hold-form .form-group,
+.hold-form .input-group {
+    margin-bottom: 20px;
+}
+.hold-form .form-group .form-control,
+.hold-form .input-group .form-control {
+    color: #1c2e5a;
+    min-height: 50px !important;
+    padding: 5px 15px;
+    background-color: #F1F1F1;
+    box-shadow: none;
+    border: 1px solid var(--mainColor);
+    box-shadow: none;
+    border-radius: 25px;
+}
+.hold-form .custom-control-label {
+    color: #7E7E7E;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hold-form .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+}
+
+.hold-form .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: transparent;
+    background-color: var(--mainColor);
+}
+
+.hold-form .custom-control-label::before {
+    border-color: #979797;
+    background-color: #D8D8D8;
+}
+
+.hold-form select.form-control {
+    cursor: pointer;
+}
+.hold-form .hold-submit {
+    margin: 40px 0;
+    display: flex;
+}
+.hold-submit .btn-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 190px;
+    height: 50px;
+    border: 0 !important;
+    box-shadow: none;
+    outline: none !important;
+    border-radius: 25px;
+    background-color: #26B195;
+    color: #FFF !important;
+    text-align: center;
+    opacity: 1;
+}
+
+.hold-form .hold-submit .btn-submit:last-child {
+    margin-right: 0px;
+}
+@media (max-width: 767.98px) {
+    .common-desc {
+        font-size: 16px;
+    }
+
+    .inputs-50 .form-group,
+    .inputs-50 .input-group {
+        width: 100%;
+    }
+
+    .hold-form .hold-submit {
+        display: block;
+    }
+
+    .hold-form .btn-submit {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
+
+    .hold-form .hold-submit .btn-submit {
+        margin-right: 0px;
+    }
+}
+.hold-form .custom-file-label {
+    display: flex;
+    align-items: center;
+    right: unset;
+    border: 0;
+    box-shadow: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 7px 10px;
+    background-color: #C7C7C7 !important;
+    border-radius: 25px !important;
+}
+
+.hold-form .custom-file-label::after {
+    display: none;
+}
+.hold-form .sub-title {
+    font-size: 20px;
+    color: var(--secondColor);
+    font-family: 'GEDinkum-Bold';
+    margin-bottom: 30px;
+}
+@media (max-width: 576.98px) {
+    .hold-form .form-inline {
+        display: block;
+    }
+}
+
+.btn-submit{
+    padding: 15px; background: #0ac282; width: 120px
+}
+
+.sub{
+    background: #0ac282;
+    width: 120px;
+    text-align: center
+}

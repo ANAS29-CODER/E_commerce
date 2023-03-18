@@ -1,0 +1,16 @@
+.langSwitcher {
+    padding-block-start: 22px;
+    text-align: start;
+}
+.langSwitcher a {
+    font-size: 18px;
+    font-family: 'GEDinkum-Bold';
+    color: var(--mainColor);
+}
+.welcom-sec .one-slide .content {
+    right: 0;
+    padding: 0 100px;
+}
+div.dataTables_wrapper div.dataTables_length select{
+	width: 70px;
+}

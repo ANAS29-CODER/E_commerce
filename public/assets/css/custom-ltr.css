@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body,
+.box .title,
+.label-text,
+.our-way ul li,
+.footer-sec .contact-info .info ,
+.links-menu a,
+.hold-content .title,
+.informative .num-big,
+.common-title,
+.sub-page-title,
+.heading-sec,
+.heading-sec-sm,
+.address-info,
+.cutom_class p,
+.common-desc {
+    font-family: 'Roboto', sans-serif;
+}
+.welcom-sec-investor .page-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.welcom-sec-investor .title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.welcom-sec .one-slide .content {
+    right: 0;
+    padding: 0 100px;
+}
+
